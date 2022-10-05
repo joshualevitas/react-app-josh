@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Banner from './components/banner';
 import CourseList from './components/courseList';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 const schedule = {
@@ -42,14 +44,17 @@ const App = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-      <Banner title={schedule.title}/>
-      <CourseList courses={schedule.courses}/>
+      <div className="title">
+        <Banner title={schedule.title}/>
+      </div>
+      <div className="container">
+        <CourseList courses={schedule.courses}/>
+      </div>
 
     
         
         
-      </header>
+  
     </div>
   );
 };

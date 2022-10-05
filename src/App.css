@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -13,20 +13,15 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+*/
+
+/*
+
 
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
@@ -39,4 +34,21 @@
 
 button {
   font-size: calc(10px + 2vmin);
+} */
+
+.title {
+  padding: 5px;
+  text-align: center;
 }
+
+
+.course-list {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 14rem);
+  /* border: 1px red dotted; */
+  
+  /* text-align: center; */
+}
+
+
